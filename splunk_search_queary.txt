@@ -1,0 +1,3 @@
+source="/var/log/auth_export.log" host="kali" index="auth_logs" sourcetype="ssh_logs" "Failed password"
+| timechart span=10s count as attack_attempt
+
